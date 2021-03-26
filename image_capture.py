@@ -16,7 +16,7 @@ while(result):
     
     # Capture videm frame and write it to the file.
     ret, frame = video.read()
-    cv2.imwrite(imageName)
+    cv2.imwrite("~/Pictures/test/" + imageName, frame)
 
 result = input('Please enter "False" here.')
 
