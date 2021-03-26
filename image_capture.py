@@ -12,7 +12,7 @@ n = 1
 while(n <= 100):
 
     # Form image name.
-    imageName = "~/Pictures/test/image" + str(n) + ".jpg"
+    imageName = "/home/pi/Pictures/test/image" + str(n) + ".jpg"
     
     # Capture videm frame and write it to the file.
     ret, frame = video.read()
