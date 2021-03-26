@@ -27,7 +27,7 @@ def record_video(duration):
         # Create a full screen video display. Comment the following 2 lines if you have a specific dimension 
         # of display window in mind and don't mind the window title bar.
         cv2.namedWindow('image',cv2.WND_PROP_FULLSCREEN)
-    	cv2.setWindowProperty('image', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+        cv2.setWindowProperty('image',cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_FULLSCREEN)
         # Here only every 5th frame is shown on the display. Change the '5' to a value suitable to the project. 
         # The higher the number, the more processing required and the slower it becomes
         if frames ==0 or frames%5 == 0:
@@ -56,4 +56,3 @@ def record_video(duration):
         out.write(images[i])
     images = []
     print("Done")
-view rawcamera_record.py hosted with ❤ by GitHub
