@@ -9,7 +9,7 @@ result = True
 # Iterator for the image name.
 n = 1
 
-while(result):
+while(n <= 25):
 
     # Form image name.
     imageName = "!/Pictures/tst/image" + str(n) + ".jpg"
@@ -21,7 +21,7 @@ while(result):
     # Advance the next filename by 1.
     n += 1
 
-result = input('Please enter "False" here.')
+#result = input('Please enter "False" here.')
 
 # Turn off video capture.
 video.release()
