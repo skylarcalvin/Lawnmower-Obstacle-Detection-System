@@ -12,11 +12,14 @@ n = 1
 while(result):
 
     # Form image name.
-    imageName = "image" + str(n) + ".jpg"
+    imageName = "!/Pictures/tst/image" + str(n) + ".jpg"
     
     # Capture videm frame and write it to the file.
     ret, frame = video.read()
-    cv2.imwrite("~/Pictures/test/" + imageName, frame)
+    cv2.imwrite(imageName, frame)
+
+    # Advance the next filename by 1.
+    n += 1
 
 result = input('Please enter "False" here.')
 
