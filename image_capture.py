@@ -9,10 +9,10 @@ result = True
 # Iterator for the image name.
 n = 1
 
-while(n <= 25):
+while(n <= 100):
 
     # Form image name.
-    imageName = "~/Pictures/tst/image" + str(n) + ".jpg"
+    imageName = "~/Pictures/test/image" + str(n) + ".jpg"
     
     # Capture videm frame and write it to the file.
     ret, frame = video.read()
