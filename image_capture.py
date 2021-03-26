@@ -12,7 +12,7 @@ n = 1
 while(n <= 25):
 
     # Form image name.
-    imageName = "!/Pictures/tst/image" + str(n) + ".jpg"
+    imageName = "~/Pictures/tst/image" + str(n) + ".jpg"
     
     # Capture videm frame and write it to the file.
     ret, frame = video.read()
