@@ -3,9 +3,6 @@ import cv2
 # Create video capture object.
 video = cv2.VideoCapture(0)
 
-# Input for while loop.
-result = True
-
 # Iterator for the image name.
 n = 1
 
@@ -20,8 +17,6 @@ while(n <= 100):
 
     # Advance the next filename by 1.
     n += 1
-
-#result = input('Please enter "False" here.')
 
 # Turn off video capture.
 video.release()
