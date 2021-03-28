@@ -1,0 +1,8 @@
+numpy==1.20.1
+opencv-contrib-python==4.1.0.25
+pandas==1.2.3
+picamera==1.13
+pkg-resources==0.0.0
+python-dateutil==2.8.1
+pytz==2021.1
+six==1.15.0
