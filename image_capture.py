@@ -9,6 +9,7 @@ imagePath = expanduser('~') + '/Pictures/test/'
 # Create video capture object.
 video = cv2.VideoCapture(0)
 
+# Functions
 def imageCapture (file):
     
     # Capture videm frame and write it to the file.
@@ -19,7 +20,7 @@ def imageCapture (file):
 # Initial iterator for the image name.
 n = 1
 
-while(getsize(expanduser('~/Pictures')) < 10000):
+while(getsize(expanduser('~/Pictures')) < 10000000000):
 
     # Form image name.
     imageName = imagePath + 'image' + str(n) + '.jpg'
